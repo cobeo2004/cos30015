@@ -1,0 +1,87 @@
+\documentclass{IEEEtran}[conference]
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage[
+backend=biber,
+style=numeric,
+sorting=none
+]{biblatex}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{enumitem} % For customizing list styles
+
+\usepackage{float}
+\usepackage[acronym]{glossaries}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{geometry} % For adjusting page margins
+\geometry{margin=1in} % Set margin
+\usepackage{tikz}
+\usetikzlibrary{positioning, shapes, arrows.meta}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{tabularx} % For automatic column width adjustment
+\usepackage{array}  % Allows for better control of column widths
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,   % Enable colored links
+    linkcolor=blue,    % Internal links (e.g., table of contents)
+    citecolor=blue,    % Citation links
+    urlcolor=blue      % URLs
+}
+
+\addbibresource{ref.bib}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+
+\title{Machine Learning Approaches in Trojan and Backdoor Detection: A Literature Review}
+
+\author{\IEEEauthorblockN{1\textsuperscript{st} Xuan Tuan Minh Nguyen}
+\IEEEauthorblockA{\textit{Dept. of Computer Science}\\
+\textit{Swinburne University of Technology}\\
+Hawthorn, VIC 3122, Australia\\
+103819212@student.swin.edu.au}}
+
+\maketitle
+\vspace{-2em}
+\begin{abstract}
+    As malware threats are evolving and becoming more complex, especially with backdoor and trojan malwares, have caused massive vulnerabilities in different industries by their nature behaviour of hiding themselves in legitimate sofware.
+    Thus, with the evolution of the threat landscape, tools that owns the most optimal capability of detecting and mitigating these threats are becoming more crucial.
+    This paper reviews the emerging trends of applying machine learning and deep learning techniques in detecting and mitigating trojan and backdoor malwares, with an exclusive focuses on analyzing in Windows and Android platforms.
+    This review also deep-dives into the usage of feature extraction techniques that are most commonly used in the detecting and mitigating malwares using Machine Learning models. Finally, the paper discusses the strengths and weaknesses of the current
+    approaches in detecting and mitigating trojan and backdoor malwares, and provides future directions and the importance of continuous development of machine learning to enhance the detection of trojan and backdoor malwares.
+\end{abstract}
+\section{Introduction}
+Nowadays, the picture of cybersecurity landsacpe has become increasingly unpredictable, with sophisticated malwares such as Trojans and Backdoors has posed a significant challenge to the cybersecurity experts. These malicious softwares exploit the vulnerabilities in different systems, causing bigger damages to the businesses and individuals. Thus, the need for developing detection and mitigation tools is becoming quinessential. This literature review focuses on exploring the current trends in fighting against these malwares using machine learning, honeypots and log processing techniques. Moreover, this paper also examines the employed data features that helps employing these detection and mitigation tools, such as event IDs, relevant metrics, connection counts, and other relevant metrics. The findings of this paper will be summarized in Table I, which summarizes the research questions for this review, which is the current trends of using machine learning in detecting and mitigating trojan and backdoor malwares. By adopting insights from well-respected conferences and journals, this review will provide a comprehensive overview for further understanding the current trends of using machine learning in detecting and mitigating trojan and backdoor malwares and provide directions for further researching regarding this topic \cite{Sayadi2020}.
+
+\begin{table}[H] % Table environment to fit in 1 column
+    \centering
+    \scriptsize % Make the text smaller to fit well within the column
+    \caption{Aimed Research Questions} % Table caption
+    \begin{tabular}{|p{1cm}|p{5.5cm}|} % Adjust column widths
+    \hline
+    \textbf{ID} & \textbf{Research Questions} \\ \hline
+    RQ1 & What are the popular static analysis techniques in Android malware detection? \\ \hline
+    RQ2 & How do these primary studies conduct the empirical experiments of Android malware detection using static analysis?\\ \hline
+    \end{tabular}%
+    \label{table1}
+\end{table}
+
+\section{Approach to the current threats}
+
+\section{The use of machine learning in cyber threat detection}
+\section{Discussion}
+\section{Conclusion}
+
+\printbibliography
+\end{document}
